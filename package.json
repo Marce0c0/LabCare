@@ -1,0 +1,28 @@
+{
+  "name": "labcare",
+  "private": true,
+  "version": "1.0.0",
+  "description": "LabCare - Sistema de Gestión de Solicitudes de Mantenimiento de Equipos (UPDS)",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "backend": "node backend/server.js",
+    "test": "node backend/test_suite.js",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "leaflet": "^1.9.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.12",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "playwright": "^1.65.1",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10"
+  }
+}
